@@ -13,5 +13,6 @@ test('Login', async({page})=> {
     await loginPageMethods.insertUsername(userCredentials.usernames.standardUser)
     await loginPageMethods.insertPassword(userCredentials.password)
     await loginPageMethods.clickOnLoginButton()
+    await commonPageMethods.openMenu()
     await page.waitForTimeout(4000)
 })
