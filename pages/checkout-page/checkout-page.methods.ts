@@ -14,11 +14,11 @@ export class CheckoutPageMethods{
         await this.checkoutPageElements.inputs.firstName.fill(firstName)
     }
 
-    async inserLastName(lastName: string){
+    async insertLastName(lastName: string){
         await this.checkoutPageElements.inputs.lastName.fill(lastName)
     }
 
-    async insertPostalCode(postalCod: string){
+    async insertPostalCode(postalCode: string){
         await this.checkoutPageElements.inputs.postalCode.fill(postalCode)
     }
 
@@ -27,6 +27,6 @@ export class CheckoutPageMethods{
     }
 
     async clickOnContinueButton(){
-        await this.checkoutPageElements.buttons.conitnue.click()
+        await this.checkoutPageElements.buttons.continue.click()
     }
 }

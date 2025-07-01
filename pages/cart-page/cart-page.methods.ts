@@ -8,6 +8,7 @@ export class CartPageMethods{
     constructor(page){
         this.page = page
         this.cartPageElements = new CartPageElements(page)
+    
     }
 
     async clickOnContinueShoppingButton(){
